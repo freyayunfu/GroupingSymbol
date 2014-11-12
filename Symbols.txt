@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package cruisereport;
+
+/**
+ *
+ * @author fuyun
+ */
+public class Cruise {
+    private int CruiseID;
+    private int ShipID;
+    private int Port1;
+    private int Port2;
+    private int Port3;
+    private int Port4;
+    
+    public void Cruise(int CruiseID){
+        this.CruiseID = CruiseID;
+    }
+    
+    public void createCruise(){
+        
+    }
+}
+}
